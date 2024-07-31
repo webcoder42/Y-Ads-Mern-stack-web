@@ -1,0 +1,78 @@
+/* Base styles */
+.contact-card {
+    background-color: #f8f9fa; /* Light gray background for the card */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 100%; /* Ensure the card doesn't overflow the viewport */
+    margin: 0 auto; /* Center the card horizontally */
+}
+
+.contact-header {
+    border-bottom: 2px solid #28a745; /* Green border under the header */
+    padding-bottom: 10px;
+}
+
+.contact-description {
+    color: #6c757d; /* Gray color for the description */
+    margin: 10px 0;
+}
+
+.contact-header h3 {
+    color: #343a40; /* Dark color for the title */
+}
+
+.contact-header .me-3 {
+    color: #28a745; /* Green color for WhatsApp icon */
+}
+
+.contact-link {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #007bff; /* Blue color for the link */
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .contact-card {
+        padding: 15px; /* Reduce padding on smaller screens */
+    }
+
+    .contact-header {
+        border-bottom-width: 1px; /* Thinner border on smaller screens */
+        padding-bottom: 8px;
+    }
+
+    .contact-description {
+        font-size: 14px; /* Smaller font size for descriptions */
+    }
+
+    .contact-link {
+        font-size: 14px; /* Smaller font size for links */
+    }
+}
+
+@media (max-width: 576px) {
+    .contact-card {
+        padding: 10px; /* Further reduce padding on very small screens */
+    }
+
+    .contact-header {
+        border-bottom-width: 1px; /* Maintain thinner border */
+        padding-bottom: 5px;
+    }
+
+    .contact-description {
+        font-size: 12px; /* Further reduce font size for descriptions */
+    }
+
+    .contact-link {
+        font-size: 12px; /* Further reduce font size for links */
+    }
+}

@@ -1,0 +1,29 @@
+.withdrawal-container {
+  box-shadow: white;
+    padding: 20px;
+  }
+ 
+  
+  .card {
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card.selected {
+    border: 2px solid #ffffff;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .btn-primary {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  

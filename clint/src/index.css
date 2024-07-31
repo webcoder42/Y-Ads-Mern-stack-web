@@ -1,0 +1,17 @@
+.contact-list .contact-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-list .link-warning {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contact-list .link-warning:hover {
+    text-decoration: underline;
+  }
+  

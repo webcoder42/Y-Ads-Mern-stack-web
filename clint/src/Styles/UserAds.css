@@ -1,0 +1,27 @@
+.ad-container {
+    margin-bottom: 20px;
+  }
+  
+  .video-responsive {
+    margin-top: 10px;
+  }
+  
+  .watch-ad-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .watch-ad-button a.button-link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .watch-ad-button:hover {
+    background-color: #0056b3;
+  }
+  

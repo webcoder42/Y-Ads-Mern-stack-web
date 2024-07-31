@@ -1,0 +1,55 @@
+
+
+
+
+  
+.dashboard-container {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .dashboard-container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .right-content {
+    text-align: center;
+  }
+  
+  
+  
+  .package-card {
+
+    background-color: #333;
+    border: 1px solid #0dee9800;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+  }
+  
+  .package-card h2,
+  .package-card p {
+    color: rgb(0, 0, 0);
+  }
+  
+  .form-control {
+    background-color: #222;
+    color: white;
+    border: 1px solid #555;
+    font-size: medium;
+  }
+  
+  .form-control::placeholder {
+    color: #888;
+  }
+
+
+  

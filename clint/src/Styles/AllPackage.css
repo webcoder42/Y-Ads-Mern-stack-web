@@ -1,0 +1,208 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+}
+:root {
+  --bg-color: #080808;
+  --second-bg-color: #080808;
+  --text-color: white;
+  --main-color: #00ffee;
+}
+
+html {
+  font-size: 62.5%;
+  overflow: auto;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+.dashboard-container {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+
+.dashboard-container img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.right-content {
+  text-align: center;
+}
+
+
+.package-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .package-link {
+    text-decoration: none;
+  }
+  
+  .package-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .package-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 2.2rem;/* AllPackage.css */
+    .dashboard-container {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      background-color: #333;
+      color: white;
+    }
+    
+    .right-content {
+      margin-left: 20px;
+    }
+    
+    .dashboard_container {
+      padding: 20px;
+    }
+    
+    
+
+    
+    .badge {
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-size: 0.9rem;
+    }
+    
+    .bg-success {
+      background-color: #28a745;
+    }
+    
+    .bg-danger {
+      background-color: #dc3545;
+    }
+    
+    .package-list {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    
+    .package-link {
+      text-decoration: none;
+      color: inherit;
+    }
+    
+    .package-card {
+      background-color: #212529;
+      color: white;
+    }
+    
+    .package-card .card-body {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    .package-card .card-title {
+      color: #e0c10c;
+    }
+    
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .card-text {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: initial;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  /* UpdatePackage.css */
+.btn-update {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+/* Add this CSS to your package.css file or any other relevant CSS file */
+
+.card {
+  border-radius: 10px;
+  overflow: hidden; /* Ensures child elements don't protrude from rounded corners */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition effect for hover */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Move the card up slightly on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+/* Add this CSS to your package.css file or any other relevant CSS file */
+.card {
+  border-radius: 15px; /* Increase border-radius for a more rounded appearance */
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(170, 20, 20, 0.2); /* Adjust shadow color and opacity */
+}
+
+.price {
+  color: green; /* Change price text color to green */
+  font-weight: bold; /* Make the price text bold */
+}
+
+.card-body {
+  background-color: #f8f9fa; /* Light gray background for card body */
+}
+

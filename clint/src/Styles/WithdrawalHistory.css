@@ -1,0 +1,167 @@
+/* General Styles */
+.dashboard-container {
+  background: linear-gradient(45deg, #f3ec78, #af4261);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.dashboard-container img {
+  width: 60px;
+  height: 60px;
+}
+
+.right-content {
+  margin-top: 10px;
+}
+
+.cards {
+  border-radius: 25px;
+  width: 900px;
+  max-width: 1000px;
+  height: auto;
+  overflow: hidden;
+}
+
+.card-header {
+  background: #007bff;
+  color: white;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.badge {
+  padding: 5px 10px;
+  font-size: 0.9em;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .dashboard-container {
+    padding: 15px 0;
+  }
+
+  .cards {
+    max-width: 800px;
+    height: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  .dashboard-container {
+    padding: 15px 0;
+  }
+
+  .cards {
+    max-width: 300px;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .dashboard-container {
+    padding: 15px 0;
+  }
+
+  .dashboard-container img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .cards {
+    width: 100%;
+    height: auto;
+  }
+
+  .right-content {
+    margin-top: 10px;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 576px) {
+  .dashboard-container {
+    padding: 10px 0;
+  }
+
+  .right-content {
+    margin-top: 5px;
+    font-size: 0.8em;
+  }
+
+  .dashboard-container img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .cards {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-header {
+    font-size: 1em;
+  }
+
+  .badge {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 480px) {
+  .dashboard-container {
+    padding: 8px 0;
+    width: 100%;
+  }
+
+  .right-content {
+    margin-top: 5px;
+    font-size: 0.7em;
+  }
+
+  .dashboard-container img {
+    width: 20px;
+    height: 30px;
+  }
+
+  .cards {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-header {
+    font-size: 0.9em;
+  }
+
+  .badge {
+    font-size: 0.7em;
+  }
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid #dee2e6;
+}

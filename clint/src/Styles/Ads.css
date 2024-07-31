@@ -1,0 +1,53 @@
+.ads-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+  }
+  
+  .ad-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+    width: 600px;
+    text-align: center;
+  }
+  
+  .ad-details {
+    margin-top: 15px;
+  }
+  
+  .ad-details p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .stats-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px;
+  }
+  
+  .stat-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .stat-card h2 {
+    margin: 0 0 8px;
+  }
+  
+  .stat-card p {
+    margin: 0;
+    font-size: 18px;
+  }
+  

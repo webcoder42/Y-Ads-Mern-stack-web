@@ -1,0 +1,28 @@
+.long-earn-container {
+    text-align: center;
+    min-height: 100vh;
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .coming-soon-wrapper {
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .coming-soon-text {
+    font-size: 46px;
+    font-weight: bold;
+    color: #ff5733;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

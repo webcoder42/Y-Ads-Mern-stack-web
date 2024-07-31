@@ -1,0 +1,45 @@
+/* Responsive adjustments for the dashboard header */
+@media (max-width: 768px) {
+    .dashboard-container {
+      padding: 2rem;
+    }
+    .dashboard-container .details-container {
+      flex-direction: column;
+      text-align: center;
+    }
+    .dashboard-container .details-container img {
+      margin: 0 auto 1rem;
+      width: 80px;
+      height: 80px;
+    }
+    .dashboard-container .details-container > div {
+      margin-top: 0;
+    }
+  }
+  
+  /* Responsive adjustments for the cards and input group */
+  @media (max-width: 992px) {
+    .card {
+      width: 100% !important;
+      margin: 0 auto;
+    }
+    .input-group .form-control {
+      border-radius: 10px !important;
+    }
+    .input-group .btn {
+      border-radius: 10px !important;
+      margin-left: 0 !important;
+      margin-top: 10px;
+    }
+  }
+  
+  /* Ensuring table doesn't overflow and has proper alignment */
+  @media (max-width: 992px) {
+    .table-responsive {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+  
